@@ -1,0 +1,88 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  font-size: 13px;
+}
+
+h1 {
+  color: black;
+}
+
+button {
+  cursor: pointer;
+}
+
+#start-button {
+  text-align: center;
+}
+
+#afro img {
+  height: 175px;
+  width: 125px;
+}
+
+/* #attack-button {
+  background-color: red;
+}
+ */
+
+.active-button {
+  background-color: green;
+}
+
+#heros-div {
+  float: left;
+}
+
+#battle-zone {
+  display: inline-block;
+/*   border: 2px solid blue; */
+  margin-left: 50px;
+}
+
+#villains-div {
+  float: right;
+/*   border: 2px solid blue; */
+}
+
+#villains-div p {
+  display: inline-block;
+  cursor: pointer;
+}
+
+#villains-div p:hover {
+  color: red;
+}
+
+/* ul {
+  list-style-type: none;
+  display: inline-block;
+} */
+
+li:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+#game-log li:hover {
+  color: red;
+}
+
+#game-log {
+  border: 1px solid black;
+  height: 200px;
+  width: 450px;
+  display: none;
+  overflow: auto;
+  box-shadow: 2px 1px 7px grey inset;
+}
+
+#game-log li {
+  margin-left: 10px;
+}
+
+.inactive {
+  display: none;
+}
